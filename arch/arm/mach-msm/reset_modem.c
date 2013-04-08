@@ -22,7 +22,7 @@
 #include "smd_private.h"
 
 #define DEBUG
-/* #undef DEBUG */
+#undef DEBUG
 #ifdef DEBUG
 #define D(x...) printk(x)
 #else

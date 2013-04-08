@@ -18,4 +18,5 @@ Devices Supported ( MSM7x27 - 3.4 Linux kernel ):-
 >----Version 1.42--- WIP
 > Update linaro gcc
 > Add row, zen and sio ( default ) IOSCHED
+> O2 Optimizations
 

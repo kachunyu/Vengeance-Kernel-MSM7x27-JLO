@@ -102,6 +102,7 @@ enum {
 };
 
 #define DEBUG
+#undef DEBUG
 
 #ifdef DEBUG
 #define D_STATUS(x...) \

@@ -1665,8 +1665,9 @@ static int msm_pm_enter(suspend_state_t state)
 	if (allow[MSM_PM_SLEEP_MODE_POWER_COLLAPSE] ||
 		allow[MSM_PM_SLEEP_MODE_POWER_COLLAPSE_NO_XO_SHUTDOWN]) {
 		enum msm_pm_time_stats_id id;
-
+#ifdef CONFIG_DEBUG_FS
 		clock_debug_print_enabled();
+#endif
 
 #ifdef CONFIG_MSM_SLEEP_TIME_OVERRIDE
 		if (msm_pm_sleep_time_override > 0) {

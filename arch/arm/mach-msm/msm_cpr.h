@@ -228,9 +228,9 @@ void msm_cpr_enable(void) { }
 void msm_cpr_disable(void) { }
 #endif
 
-#ifdef CONFIG_DEBUG_FS
+// #ifdef CONFIG_DEBUG_FS
 int msm_cpr_debug_init(void *);
-#else
-static inline int msm_cpr_debug_init(void *) { return 0; }
-#endif
+// #else
+//static inline int msm_cpr_debug_init(void *) { return 0; }
+// #endif
 #endif /* __ARCH_ARM_MACH_MSM_CPR_H */

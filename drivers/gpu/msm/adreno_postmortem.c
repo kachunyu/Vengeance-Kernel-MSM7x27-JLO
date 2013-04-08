@@ -682,7 +682,7 @@ static int adreno_dump(struct kgsl_device *device)
 		"RB: addr=%8.8x  window:%4.4x-%4.4x, start:%4.4x\n",
 		cp_rb_base, cp_rb_rptr, cp_rb_wptr, read_idx);
 	adreno_dump_rb(device, rb_copy, num_item<<2, read_idx, rb_count);
-
+#ifdef CONFIG_DEBUG_FS
 	if (is_adreno_pm_ib_enabled()) {
 		for (read_idx = NUM_DWORDS_OF_RINGBUFFER_HISTORY;
 			read_idx >= 0; --read_idx) {
@@ -718,7 +718,7 @@ static int adreno_dump(struct kgsl_device *device)
 			adreno_dump_regs(device, a200_registers,
 					a200_registers_count);
 	}
-
+#endif
 error_vfree:
 	vfree(rb_copy);
 end:

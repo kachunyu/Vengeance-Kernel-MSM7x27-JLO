@@ -6,7 +6,6 @@ Devices Supported ( MSM7x27 - 3.4 Linux kernel ):-
 > Linaro 4.7.3 Optmized
 > Based on latest sources by Sony : 11.2.A.0.24 
 > Overclock support upto 1.3 GHz
-> Integrated Dual recovery ( TWRP Touch and CWM )
 > Enable Deadline
 > ro.secure=0
 > Enable SWAP Support

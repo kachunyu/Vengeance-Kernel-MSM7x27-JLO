@@ -1,6 +1,8 @@
                                             Changelog for Vengeance Kernel
+
 Devices Supported ( MSM7x27 - 3.4 Linux kernel ):-
 * J ( JLO )
+* E ( Nanhu SS/DS )
 
 >----Version 1.40--- ( First release )
 > Linaro 4.7.3 Optmized
@@ -14,10 +16,12 @@ Devices Supported ( MSM7x27 - 3.4 Linux kernel ):-
 > ARM: cpu topology: Enable ARCH_POWER
 > Add TUN.ko module
 
->----Version 1.42--- WIP
+>----Version 1.42--- ( Added Support for Nanhu-SS/DS )
 > Update linaro gcc
+> Clean up junks
 > Add row, zen and sio ( default ) IOSCHED
 > O2 Optimizations
 > Remove + symbol from kernel version string
 > Add frandom 
-
+> Remove debugging s**ts
+> Salvage some RAM (2.5 MB)

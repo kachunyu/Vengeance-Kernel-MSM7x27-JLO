@@ -27,3 +27,8 @@ Devices Supported ( MSM7x27 - 3.4 Linux kernel ):-
 > Remove debugging s**ts
 > Salvage some RAM (2.5 MB)
 > Overall highly improved and optimized
+
+>----Version 1.43---
+> Add init.d support
+> Add busybox
+> Integrate frandom script with modules.zip

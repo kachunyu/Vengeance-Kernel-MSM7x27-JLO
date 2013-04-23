@@ -31,4 +31,5 @@ Devices Supported ( MSM7x27 - 3.4 Linux kernel ):-
 >----Version 1.43---
 > Add init.d support
 > Add busybox
+> Add Google Snappy Drivers
 > Integrate frandom script with modules.zip

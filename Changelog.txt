@@ -37,5 +37,4 @@ Devices Supported ( MSM7x27 - 3.4 Linux kernel ):-
 >----Version 1.45---
 > Remove Overclock
 > Linaro 4.8 Optimized
-> Add ROW IOSCHED
 > Add missing files to source and cleanup

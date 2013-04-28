@@ -36,7 +36,6 @@ Devices Supported ( MSM7x27 - 3.4 Linux kernel ):-
 
 >----Version 1.45---
 > Remove Overclock
-> Add Google Snappy Drivers
 > Linaro 4.8 Optimized
 > Add ROW IOSCHED
 > Add missing files to source and cleanup

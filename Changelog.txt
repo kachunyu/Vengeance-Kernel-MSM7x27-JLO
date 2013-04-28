@@ -33,3 +33,10 @@ Devices Supported ( MSM7x27 - 3.4 Linux kernel ):-
 > Add busybox
 > Add Google Snappy Drivers
 > Integrate frandom script with modules.zip
+
+>----Version 1.45---
+> Remove Overclock
+> Add Google Snappy Drivers
+> Linaro 4.8 Optimized
+> Add ROW IOSCHED
+> Add missing files to source and cleanup
